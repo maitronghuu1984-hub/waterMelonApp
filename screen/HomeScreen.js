@@ -36,7 +36,7 @@ export const HomeScreen = () => {
             />
             <MenuItem
               icon={<FontAwesome6 name="book" size={50} color={"green"} />}
-              // onPress={() => navigation.navigate("Count")}
+             
 
               onPress={() =>
                 Linking.openURL(
