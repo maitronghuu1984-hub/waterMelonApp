@@ -24,25 +24,10 @@ export const HomeScreen = () => {
         height={"350"}
       />
       <VStack p={4} space={4}>
-        {/* <Text fontSize="2xl" fontWeight={"bold"} color={"gray.900"}>
-         HỆ THỐNG GIÁM SÁT IOT
-        </Text>
-        <Text fontSize="2xl" fontWeight={"bold"} color={"gray.900"}>
-        TRỒNG CÂY RAU MÀU
-        </Text> */}
-       
+             
         <ScrollView>
           <VStack alignItems={"stretch"} space={4}>
-            {/* <MenuItem
-              icon={
-                <Ionicons name="images-outline" size={50} color={"#e11d48"} />
-              }
-              title={"Ảnh chụp cây lúa"}
-              description={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-              }
-              onPress={() => navigation.navigate("Images")}
-            /> */}
+           
             <MenuItem
               icon={<FontAwesome name="image" size={50} color={"#059669"} />}
               title={"Upload ảnh cần nhận dạng"}
@@ -63,22 +48,7 @@ export const HomeScreen = () => {
                 "Hướng dẫn kỹ thuật trồng dưa hấu."
               }
             />
-            {/* <MenuItem
-              icon={
-                <FontAwesome
-                  name="wechat"
-                  size={50}
-                  color={"#0284c7"}
-                />
-              }
-              onPress={() =>
-                Linking.openURL(
-                  "https://console.dialogflow.com/api-client/demo/embedded/915c0b36-0713-495c-902a-f78939b7c24c"
-                )
-              }
-              title={"ChatBot hỗ trợ nông dân"}
-              description={"Giải đáp thắc mắc trong sản xuất dưa hấu."}
-            /> */}
+            
           </VStack>
         </ScrollView>
       </VStack>
